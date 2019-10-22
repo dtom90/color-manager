@@ -1,0 +1,16 @@
+{
+  "name": "color-manager",
+  "version": "0.1.0",
+  "description": "Random color generator and manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "github:dtom90/color-manager",
+  "author": "David Thomason",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dtom90/color-manager/issues"
+  },
+  "homepage": "https://github.com/dtom90/color-manager#readme"
+}
