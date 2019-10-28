@@ -37,4 +37,13 @@ describe('ColorManager', () => {
     expect(myColorManager.colors).to.deep.equal([color1, color2])
     
   })
+  
+  it('should be able to load previously-created colors', () => {
+    
+    const initialColors = ['#FF0000', '#00FF00', '#0000FF']
+    
+    const myColorManager = new ColorManager(initialColors)
+    expect(myColorManager.colors).to.deep.equal(initialColors)
+    
+  })
 })

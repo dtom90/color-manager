@@ -4,8 +4,8 @@ const iterations = 50;
 
 class ColorManager {
   
-  constructor() {
-    this.colors = []
+  constructor(initialColors) {
+    this.colors = initialColors || []
   }
   
   getRandomColor () {
