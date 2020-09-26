@@ -16,5 +16,9 @@
   "devDependencies": {
     "chai": "^4.2.0",
     "mocha": "^6.2.2"
+  },
+  "resolutions": {
+    "yargs-parser": ">=13.1.2",
+    "minimist": ">=0.2.1"
   }
 }
